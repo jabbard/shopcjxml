@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="catalog_16033175.css"?>
+<!DOCTYPE datstore SYSTEM "catalog_16033175.dtd" [
+<!ENTITY CP "XPS 8900">
+<!ENTITY Mn "Dell SE2417HG 24 inch Gaming Monitor">
+<!ENTITY Key "Multimedia USB Keyboard">
+<!ENTITY Hdd "Transcend 1TB StoreJet M3 Military Drop Tested USB 3.0 External Hard Drive">
+<!ENTITY Spk "Multimedia Desktop Speaker">
+<!ENTITY Mou "FanTech Wireless Gaming Mouse FTM-W529 Black">
+<!ENTITY Mse "Wireless Mouse">
+]>
+<datstore>
+    <store_name>SHOJ CJ</store_name>
+    <store_address>Hadigaun, Kathmandu</store_address>
+    <store_number>977-1-436567</store_number>
+    <store_website>www.cj-yourshop.com</store_website>
+    <logo image="cj-yourshop"/>
+    <items>
+        <item pid="p001" delivery="Express">
+            <item_name>&CP;</item_name>
+            <description>
+                <![CDATA[It is one of the modest CPUs you can get with good space and expandability. It comes in both i5 and i7 with this one being i5. The processors are quiet good which makes this CPU good for gaming. The expansion slots include slots for extra GPU and fans as well. In short, if you are looking for a CPU with good price value and are going to use it for high end applications like various games. This is the perfect CPU for you.]]>
+                    
+            </description>
+            <item_type>CPU</item_type>
+            <quantity>4</quantity>
+            <price>Rs. 200,000</price>
+            <extensions>
+                <additional_item id="p002">&Mn;</additional_item>
+                <additional_item id="p003">&Spk;</additional_item>       
+                <additional_item id="p004">&Mou;</additional_item>
+                <additional_item id="p006">&Key;</additional_item>
+                <additional_item id="p007">&Hdd;</additional_item>
+            </extensions>
+        </item>
+        <item pid="p002" monitorType="LED" >
+            <item_name>&Mn;</item_name>
+            <description>
+                <![CDATA[24 inches of LED Screen with 1080 pixel resolution and an aspect ratio of 16:9 is good for gaming purpose.It comes with a Multimedia desktop speaker which is optional.]]>
+            </description>
+            <item_type>Monitor</item_type>
+            <details>
+                <manufacturer>Dell</manufacturer>
+                <resolution>1920X1080</resolution>
+                <dimension>24" X 24"</dimension>
+                <color>Black</color>
+            </details>
+            <quantity>2</quantity>
+            <price>Rs. 20,780</price>
+            <extensions>
+                <additional_item id="p003">&Spk;</additional_item>
+            </extensions>
+        </item>
+        <item pid="p003">
+            <item_name>&Spk;</item_name>
+            <description>
+                <![CDATA[Dual Dolby speaker with surround sound system which makes the sound life like.]]>    
+            </description>
+            <item_type>Speaker</item_type>
+            <quantity>4</quantity>
+            <price>Rs. 249</price>
+        </item>
+        <item pid="p004">
+            <item_name>&Mou;</item_name>
+            <description>
+                <![CDATA[Smooth scrolling with good grip which makes it perfect for gaming.]]>    
+            </description>
+            <item_type>Mouse</item_type>
+            <quantity>8</quantity>
+            <price>Rs. 800</price>
+        </item>
+        <item pid="p005">
+            <item_name>&Mse;</item_name>
+            <description>
+                <![CDATA[Wireless mouse makes life easier with its portability.]]>    
+            </description>
+            <item_type>Mouse</item_type>
+            <quantity>5</quantity>
+            <price>Rs. 344</price>
+        </item>
+        <item pid="p006">
+            <item_name>&Key;</item_name>
+            <description>
+                <![CDATA[Simple but durable and strong keyboard with speed typing.]]>    
+            </description>
+            <item_type>Keyboard</item_type>
+            <quantity>2</quantity>
+            <price>Rs. 344</price>
+        </item>
+        <item pid="p007">
+            <item_name>&Hdd;</item_name>
+            <description>
+                <![CDATA[Military Grade shock resistant hard disk with USB 3.0 having 1 TB of storage.]]>    
+            </description>
+            <item_type>Hard Disk</item_type>
+            <quantity>5</quantity>
+            <price>Rs. 7,300</price>
+        </item>
+    </items>
+</datstore>

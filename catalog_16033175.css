@@ -1,0 +1,162 @@
+datstore {	
+	font-family: georgia  ;
+	padding: 10px;
+	display: block;
+	background-color: rgb(41,41,41);
+	color: rgb(255,255,255);
+	width: 85%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+store_name {
+	display: none;
+}
+
+store_address, store_number, store_website {
+	padding: 0px;
+	font-style: italic;
+	font-family: century gothic;
+	font-size: 16px;
+	color: rgb(255, 30, 45);
+	display: block;
+	float: right;
+	clear: both;
+}
+
+logo {
+	display: block;
+	background-image: url("shop.png");
+	background-size: contain;
+	background-repeat: no-repeat;
+	width: 500px;
+	height: 200px;
+	margin: auto;
+}
+
+item {
+	display: block;
+	border: 2px solid black;
+	border-radius: 20px;
+	width: 100%;
+	margin: auto;
+	margin-top: 30px;
+}
+
+item_name {
+	display: block;
+	text-align: center;
+	border: 0px solid black;
+	border-radius: 20px 20px 0px 0px;
+	font-weight: bold;	
+	height: 50px;
+	background-color: #3f3f3f;
+	text-decoration: underline overline;
+	padding-top: 30px;
+}	
+
+description::before {
+	content: "Description:";
+	font-weight: bold;
+}	
+
+description {
+	display: block;
+	padding-left: 10px;
+	padding-top: 10px;
+}
+
+item_type::before {
+	content: "Type of the product: ";
+	font-weight: bold;
+}
+
+item_type {
+	display: block;
+	padding: 10px;
+}
+
+quantity::before {
+	content: "Quantity of the product: ";
+	font-weight: bold;
+}
+
+quantity {
+	display: block;
+	padding: 10px;
+}
+
+price::before {
+	content: "Price: ";
+	font-weight: bold;
+}
+
+price {
+	display: block;
+	padding: 10px;
+}
+
+extensions::before {
+	content: "Additional Products: ";
+	font-weight: bold;
+	display: block;
+	padding: 10px;
+}
+additional_item {
+	display: list-item;
+	margin-left: 30px;
+	padding-bottom: 5px;
+}
+
+manufacturer::before {
+	content: "Manufacturer: ";
+	font-weight: bold;
+	font-size: 14px;
+}
+
+manufacturer {
+	display: block;
+	padding-left: 20px;
+	padding-top: 5px;
+	font-size: 14px
+}
+
+resolution::before {
+	content: "Resolution: ";
+	font-weight: bold;
+	font-size: 14px;
+}
+
+resolution {
+	display: block;
+	padding-left: 20px;
+	padding-top: 5px;
+	font-size: 14px;
+}
+
+dimension::before {
+	content: "Dimension: ";
+	font-weight: bold;
+	font-size: 14px;
+}
+
+dimension {
+	display: block;
+	padding-left: 20px;
+	padding-top: 5px;
+	font-size: 14px;
+}
+
+color::before {
+	content: "Resolution: ";
+	font-weight: bold;
+	font-size: 14px;
+}
+
+color {
+	display: block;
+	padding-left: 20px;
+	padding-top: 5px;
+	font-size: 14px;
+}
+

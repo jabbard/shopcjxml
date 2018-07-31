@@ -1,0 +1,32 @@
+<!ELEMENT datstore (store_name,store_address,store_number,store_website,logo,items)> 
+<!ELEMENT store_name (#PCDATA)>
+<!ELEMENT store_address (#PCDATA)>
+<!ELEMENT store_number (#PCDATA)>
+<!ELEMENT store_website (#PCDATA)>
+<!ELEMENT logo EMPTY>
+<!ELEMENT items (item+)>
+<!ELEMENT item (item_name,description, item_type, details*,quantity,price,extensions*)>
+<!ELEMENT item_name (#PCDATA)>
+<!ELEMENT description (#PCDATA)>
+<!ELEMENT item_type (#PCDATA)>
+<!ELEMENT details (manufacturer,resolution,dimension,color)>
+<!ELEMENT manufacturer (#PCDATA)>
+<!ELEMENT resolution (#PCDATA)>
+<!ELEMENT dimension (#PCDATA)>
+<!ELEMENT color (#PCDATA)>
+<!ELEMENT quantity (#PCDATA)>
+<!ELEMENT price (#PCDATA)>
+<!ELEMENT extensions (additional_item)+>
+<!ELEMENT additional_item (#PCDATA)>
+
+<!ATTLIST item
+    pid ID #REQUIRED
+    monitorType (CRT|LCD|LED) #IMPLIED
+    delivery (Free|Express) #IMPLIED
+  >
+<!ATTLIST logo image ENTITY #REQUIRED>
+<!ATTLIST additional_item id IDREF #REQUIRED>
+
+<!NOTATION JPG SYSTEM "image/jpg">
+
+<!ENTITY cj-yourshop SYSTEM "shop.png" NDATA JPG>
